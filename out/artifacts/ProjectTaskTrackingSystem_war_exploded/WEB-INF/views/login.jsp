@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>任务管理系统</title>
+    <title>项目任务跟踪系统</title>
 
     <meta
             content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
@@ -27,7 +27,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="all-admin-index.html">任务管理系统</a>
+        <a href="all-admin-index.html">项目任务跟踪系统</a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
