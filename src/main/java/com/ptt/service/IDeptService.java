@@ -52,4 +52,6 @@ public interface IDeptService {
     void addPlan(Plan plan, String id);
 
     List<Plan> findAllPlan();
+
+    void updateEmp(Emp emp);
 }

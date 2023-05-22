@@ -75,4 +75,9 @@ public class ManagerServiceImpl implements IManagerService {
     public void deleteTaskByTaskName(String task_name) {
         managerMapper.deleteTaskByTaskName(task_name);
     }
+
+    @Override
+    public void updateEmp(Emp emp) {
+        managerMapper.updateEmp(emp);
+    }
 }

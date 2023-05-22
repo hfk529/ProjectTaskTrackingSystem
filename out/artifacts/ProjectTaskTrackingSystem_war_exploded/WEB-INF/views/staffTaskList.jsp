@@ -147,8 +147,8 @@
                                     <td>${map.task_state}</td>
 
                                     <td class="text-center">
-                                        <a href="/toAddStaffPlan?id=${map.id}"
-                                           class="btn bg-olive btn-xs">制订任务</a>
+                                        <%--<a href="/toAddStaffPlan?id=${map.id}"
+                                           class="btn bg-olive btn-xs">制订任务</a>--%>
                                         <a href="/staffTaskPlan?id=${map.id}"
                                            class="btn bg-olive btn-xs">详细信息</a>
                                     </td>

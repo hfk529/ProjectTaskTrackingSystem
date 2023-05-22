@@ -14,105 +14,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bc56ace-3ef5-49e7-890b-a9d54f46587b" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffPlanFeedback.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminHeader.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminMain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminMain.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminShowAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminShowAdmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUpdateAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUpdateAdmin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/controller/DeptController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/controller/DeptController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/controller/DeptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/controller/ManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/controller/ManagerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/controller/StaffController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/controller/StaffController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/dao/AdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/dao/AdminMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/dao/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/dao/DeptMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/dao/ManagerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/dao/ManagerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/dao/StaffMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/dao/StaffMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/IAdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/IAdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/IDeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/IDeptService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/IManagerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/IManagerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/IStaffService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/IStaffService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/impl/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/impl/ManagerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/impl/ManagerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/impl/StaffServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/com/ptt/service/impl/StaffServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/mapper/ManagerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/mapper/ManagerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/mapper/StaffMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/classes/mapper/StaffMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/plugins/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/plugins/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/plugins/ckeditor/CHANGES(1).md" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/plugins/ckeditor/CHANGES(1).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/plugins/ckeditor/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/plugins/ckeditor/CHANGES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminAside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminAside.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUserAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUserAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUserAssign.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUserAssign.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUserAssignList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUserAssignList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUserList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUserShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/adminUserShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptFollowShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptFollowShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptHeader.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptMain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptMain.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptPlanAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptPlanAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptPlanList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptPlanList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptPlanLook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptPlanLook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptPlanShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptPlanShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptShowDept.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptShowDept.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskAdjust.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskAdjust.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskAdjustList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskAdjustList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskFollow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskFollow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptTaskShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptUpdateDept.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptUpdateDept.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptUserList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptUserShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptUserShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/loginAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/loginAdmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerFollowShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerFollowShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerHeader.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerMain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerMain.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerPlanShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerPlanShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerShowManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerShowManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskAdjust.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskAdjust.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskAdjustList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskAdjustList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskFollow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskFollow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerTaskShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptAside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/deptAside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerAside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerAside.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerUpdateManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/managerUpdateManager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffAside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffAside.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffHeader.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffMain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffMain.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffPlanAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffPlanAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffPlanList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffPlanList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffPlanLook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffPlanLook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffShowStaff.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffShowStaff.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffTaskList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffTaskList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffTaskPlanShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffTaskPlanShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffUpdateStaff.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTaskTrackingSystem_war_exploded/WEB-INF/views/staffUpdateStaff.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminHeader.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminMain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminMain.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminShowAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminShowAdmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUpdateAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUpdateAdmin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/controller/ManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/controller/StaffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/controller/StaffController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/dao/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/dao/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/dao/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/dao/DeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/dao/ManagerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/dao/ManagerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/dao/StaffMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/dao/StaffMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/service/IAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/service/IAdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/service/IDeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/service/IDeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/service/IManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/service/IManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/service/IStaffService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/service/IStaffService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/service/impl/ManagerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/service/impl/ManagerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/service/impl/StaffServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/service/impl/StaffServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ManagerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ManagerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/StaffMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/StaffMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/plugins/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/plugins/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/plugins/ckeditor/CHANGES(1).md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/plugins/ckeditor/CHANGES(1).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/plugins/ckeditor/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/plugins/ckeditor/CHANGES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminAside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminAside.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUserAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUserAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUserAssign.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUserAssign.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUserAssignList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUserAssignList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUserList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUserShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminUserShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptFollowShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptFollowShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptHeader.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptMain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptMain.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptPlanAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptPlanAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptPlanList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptPlanList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptPlanLook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptPlanLook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptPlanShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptPlanShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptShowDept.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptShowDept.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskAdjust.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskAdjust.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskAdjustList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskAdjustList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskFollow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskFollow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptTaskShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptUpdateDept.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptUpdateDept.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptUserList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptUserShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptUserShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/loginAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/loginAdmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerFollowShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerFollowShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerHeader.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerMain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerMain.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerPlanShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerPlanShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerShowManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerShowManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskAdjust.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskAdjust.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskAdjustList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskAdjustList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskFollow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskFollow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptAside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/deptAside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerAside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerAside.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerUpdateManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerUpdateManager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffAside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffAside.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffHeader.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffMain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffMain.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffPlanAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffPlanAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffPlanList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffPlanList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffPlanLook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffPlanLook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffShowStaff.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffShowStaff.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffTaskList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffTaskList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffTaskPlanShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffTaskPlanShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffUpdateStaff.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffUpdateStaff.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/controller/AdminController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/controller/DeptController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/controller/DeptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/controller/ManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/controller/StaffController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/controller/StaffController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/dao/AdminMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/dao/LoginMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/dao/ManagerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/dao/StaffMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/service/IAdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/service/IDeptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/service/ILoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/service/IManagerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/service/IStaffService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/service/impl/AdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/service/impl/DeptServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/service/impl/LoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/service/impl/ManagerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/service/impl/StaffServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/vo/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/vo/Plan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ptt/vo/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/LoginMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ManagerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/StaffMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springMVC-servlet.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +179,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
@@ -307,7 +315,11 @@
       <workItem from="1684269553238" duration="193000" />
       <workItem from="1684269856477" duration="1207000" />
       <workItem from="1684271112057" duration="4711000" />
-      <workItem from="1684295717173" duration="892000" />
+      <workItem from="1684295717173" duration="5085000" />
+      <workItem from="1684304996681" duration="4955000" />
+      <workItem from="1684342439386" duration="2186000" />
+      <workItem from="1684472552470" duration="6502000" />
+      <workItem from="1684661085614" duration="3825000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1684270906960</created>
@@ -330,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684295258764</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1684296729796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684296729796</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,14 +429,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="0" width="1092" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1684271755273" />
-    <state x="605" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1684272931879">
+    <state x="605" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1684474744134">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1684272931879" />
+    <state x="605" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1684474744134" />
+    <state x="576" y="323" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1684297002130">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="576" y="323" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1684297002130" />
     <state x="579" y="336" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1683644929970">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="579" y="336" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1600.860@0.0.1600.860" timestamp="1683644929970" />
+    <state x="296" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1684298123203">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="296" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1684298123203" />
     <state x="530" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1684217690079">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -434,54 +461,54 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1684269532914" />
-    <state width="1557" height="295" key="GridCell.Tab.0.bottom" timestamp="1684295656342">
+    <state width="1557" height="270" key="GridCell.Tab.0.bottom" timestamp="1684692262438">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1684295656342" />
-    <state width="1557" height="295" key="GridCell.Tab.0.center" timestamp="1684295656342">
+    <state width="1557" height="270" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1684692262438" />
+    <state width="1557" height="270" key="GridCell.Tab.0.center" timestamp="1684692262438">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1684295656342" />
-    <state width="1557" height="295" key="GridCell.Tab.0.left" timestamp="1684295656342">
+    <state width="1557" height="270" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1684692262438" />
+    <state width="1557" height="270" key="GridCell.Tab.0.left" timestamp="1684692262438">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1684295656342" />
-    <state width="1557" height="295" key="GridCell.Tab.0.right" timestamp="1684295656342">
+    <state width="1557" height="270" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1684692262438" />
+    <state width="1557" height="270" key="GridCell.Tab.0.right" timestamp="1684692262438">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1684295656342" />
-    <state width="1557" height="295" key="GridCell.Tab.1.bottom" timestamp="1684295656343">
+    <state width="1557" height="270" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1684692262438" />
+    <state width="1557" height="270" key="GridCell.Tab.1.bottom" timestamp="1684692262439">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1684295656343" />
-    <state width="1557" height="295" key="GridCell.Tab.1.center" timestamp="1684295656343">
+    <state width="1557" height="270" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1684692262439" />
+    <state width="1557" height="270" key="GridCell.Tab.1.center" timestamp="1684692262439">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1684295656343" />
-    <state width="1557" height="295" key="GridCell.Tab.1.left" timestamp="1684295656343">
+    <state width="1557" height="270" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1684692262439" />
+    <state width="1557" height="270" key="GridCell.Tab.1.left" timestamp="1684692262438">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1684295656343" />
-    <state width="1557" height="295" key="GridCell.Tab.1.right" timestamp="1684295656343">
+    <state width="1557" height="270" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1684692262438" />
+    <state width="1557" height="270" key="GridCell.Tab.1.right" timestamp="1684692262439">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1684295656343" />
-    <state width="1557" height="295" key="GridCell.Tab.2.bottom" timestamp="1684295656343">
+    <state width="1557" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1684692262439" />
+    <state width="1557" height="270" key="GridCell.Tab.2.bottom" timestamp="1684692262439">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1684295656343" />
-    <state width="1557" height="295" key="GridCell.Tab.2.center" timestamp="1684295656343">
+    <state width="1557" height="270" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1684692262439" />
+    <state width="1557" height="270" key="GridCell.Tab.2.center" timestamp="1684692262439">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1684295656343" />
-    <state width="1557" height="295" key="GridCell.Tab.2.left" timestamp="1684295656343">
+    <state width="1557" height="270" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1684692262439" />
+    <state width="1557" height="270" key="GridCell.Tab.2.left" timestamp="1684692262439">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1684295656343" />
-    <state width="1557" height="295" key="GridCell.Tab.2.right" timestamp="1684295656343">
+    <state width="1557" height="270" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1684692262439" />
+    <state width="1557" height="270" key="GridCell.Tab.2.right" timestamp="1684692262439">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="295" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1684295656343" />
+    <state width="1557" height="270" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1684692262439" />
     <state width="1557" height="253" key="GridCell.Tab.3.bottom" timestamp="1684042703380">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -514,10 +541,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="521" y="171" width="540" height="524" key="StructurePopup/0.0.1600.860@0.0.1600.860" timestamp="1683715150665" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1684295282606">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1684296746617">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1684295282606" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1684296746617" />
     <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1684267231179">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -526,10 +553,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="453" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1600.860@0.0.1600.860" timestamp="1684271980382" />
-    <state x="603" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1684273629717">
+    <state x="603" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1684296608967">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="603" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1684273629717" />
+    <state x="603" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1684296608967" />
     <state x="343" y="168" width="914" height="567" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1683642894898">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -568,7 +595,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ptt/controller/StaffController.java</url>
-          <line>114</line>
+          <line>116</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

@@ -82,16 +82,16 @@
                 个人管理<small>修改信息</small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="toAdminMain"><i
+                <li><a href="toManagerMain"><i
                         class="fa fa-dashboard"></i> 首页</a></li>
                 <li><a
-                        href="toAdminMain">个人管理</a></li>
+                        href="toManagerMain">个人管理</a></li>
                 <li class="active">修改信息</li>
             </ol>
         </section>
         <!-- 内容头部 /-->
 
-        <form action="updateAdmin"
+        <form action="updateManager"
               method="post">
             <!-- 正文区域 -->
             <section class="content">

@@ -1,5 +1,6 @@
 package com.ptt.dao;
 
+import com.ptt.vo.Emp;
 import com.ptt.vo.Plan;
 import com.ptt.vo.Task;
 import org.apache.ibatis.annotations.Param;
@@ -11,7 +12,7 @@ import java.util.Map;
 @Repository
 public interface StaffMapper {
     //根据员工编号获取到任务id
-    Task findTaskIdByUserName(@Param("staff_id") String currentUser,@Param("id") int id);
+    Task findTaskIdByUserName(@Param("staff_id") String currentUser, @Param("id") int id);
 
     List<Plan> findPlanByTaskId(String task_id);
 
@@ -30,4 +31,6 @@ public interface StaffMapper {
     List<Task> findAllTask();
 
     List<Plan> dimLook(Map<String, String> map);
+
+    void updateEmp(Emp emp);
 }

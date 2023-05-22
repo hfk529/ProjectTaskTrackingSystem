@@ -9,7 +9,7 @@ import java.util.Map;
 
 public interface IStaffService {
     //根据员工编号获取到任务id
-    Task findTaskIdByUserName(String currentUser,int id);
+    Task findTaskIdByUserName(String currentUser, int id);
 
     List<Plan> findPlanByTaskId(String task_id);
 
@@ -30,4 +30,6 @@ public interface IStaffService {
     List<Task> findAllTask();
 
     List<Plan> dimLook(Map<String, String> map);
+
+    void updateEmp(Emp emp);
 }

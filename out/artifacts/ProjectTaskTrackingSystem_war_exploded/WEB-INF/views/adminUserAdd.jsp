@@ -103,7 +103,7 @@
                         <div class="col-md-2 title">用户编号</div>
                         <div class="col-md-4 data">
                             <input type="text" class="form-control" name="username"
-                                   placeholder="开头:D(主管)M(管理员)S(员工)" value="">
+                                   placeholder="开头:A(管理员)M(项目经理)D(组长)S(员工)" value="">
                         </div>
                         <div class="col-md-2 title">用户姓名</div>
                         <div class="col-md-4 data">

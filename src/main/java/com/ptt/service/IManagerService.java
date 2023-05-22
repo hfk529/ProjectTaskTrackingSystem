@@ -41,4 +41,6 @@ public interface IManagerService {
     void updateTaskById(String id, String task_state);
 
     void deleteTaskByTaskName(String task_name);
+
+    void updateEmp(Emp emp);
 }

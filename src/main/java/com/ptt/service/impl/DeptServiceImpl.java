@@ -100,4 +100,9 @@ public class DeptServiceImpl implements IDeptService {
     public List<Plan> findAllPlan() {
         return deptMapper.findAllPlan();
     }
+
+    @Override
+    public void updateEmp(Emp emp) {
+        deptMapper.updateEmp(emp);
+    }
 }

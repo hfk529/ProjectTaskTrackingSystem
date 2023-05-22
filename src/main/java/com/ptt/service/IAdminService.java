@@ -14,4 +14,6 @@ public interface IAdminService {
     void deleteUserById(String username);
 
     void updateUser(String username, String super_id);
+
+    void updateEmp(Emp emp);
 }

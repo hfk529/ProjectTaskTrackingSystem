@@ -45,4 +45,6 @@ public interface ManagerMapper {
     void updateTaskById(@Param("id") String id,@Param("task_state") String task_state);
 
     void deleteTaskByTaskName(String task_name);
+
+    void updateEmp(Emp emp);
 }

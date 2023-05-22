@@ -78,4 +78,7 @@
     <select id="findUserById" parameterType="java.lang.String" resultType="com.ptt.vo.Emp">
         select * from t_emp where username =#{username,javaType=String}
     </select>
+    <update id="updateEmp" parameterType="com.ptt.vo.Emp">
+        update t_emp set username=#{username},name=#{name},password=#{password},sex=#{sex},birthday=#{birthday},hire_date=#{hire_date},position=#{position},qualification=#{qualification},professional=#{professional},experience=#{experience},flag=#{flag} where username=#{username}
+    </update>
 </mapper>

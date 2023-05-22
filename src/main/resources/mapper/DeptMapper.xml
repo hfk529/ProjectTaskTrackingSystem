@@ -109,4 +109,7 @@
         #{plan.plan_end_date,javaType=Date},#{plan.plan_description,javaType=String},
         #{id})
     </insert>
+    <update id="updateEmp" parameterType="com.ptt.vo.Emp">
+        update t_emp set username=#{username},name=#{name},password=#{password},sex=#{sex},birthday=#{birthday},hire_date=#{hire_date},position=#{position},qualification=#{qualification},professional=#{professional},experience=#{experience},flag=#{flag} where username=#{username}
+    </update>
 </mapper>

@@ -220,6 +220,41 @@ public class DeptController {
         return "deptUpdateDept";
     }
 
+    @RequestMapping("updateDept")
+    public String updateStaff(HttpSession session, HttpServletRequest request) {
+        String username = session.getAttribute("loginName").toString();
+        Emp emp = new Emp();
+
+        //注册转换器，将string类型数据转换为date类型
+        ConvertUtils.register(new Converter() {
+            @Override
+            public Object convert(Class aClass, Object o) {
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+
+                try {
+                    return formatter.parse(o.toString());
+                } catch (java.text.ParseException e) {
+                    e.printStackTrace();
+                }
+
+                return new Date();
+            }
+        }, Date.class);
+
+        //获取数据
+        Map<String, String[]> map = request.getParameterMap();
+        //封装数据
+        try {
+            BeanUtils.populate(emp, map);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+        deptService.updateEmp(emp);
+        return "deptMain";
+    }
+
     @RequestMapping("showDept")
     public String showDept(HttpSession session,HttpServletRequest request){
         String username = session.getAttribute("loginName").toString();

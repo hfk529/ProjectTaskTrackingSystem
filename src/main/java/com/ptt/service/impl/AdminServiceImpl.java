@@ -37,4 +37,9 @@ public class AdminServiceImpl implements IAdminService {
     public void updateUser(String username, String super_id) {
         adminMapper.updateUser(username, super_id);
     }
+
+    @Override
+    public void updateEmp(Emp emp) {
+        adminMapper.updateEmp(emp);
+    }
 }

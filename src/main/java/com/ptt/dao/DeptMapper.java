@@ -54,4 +54,6 @@ public interface DeptMapper {
     void addPlan(@Param("plan") Plan plan, @Param("id") String id);
 
     List<Plan> findAllPlan();
+
+    void updateEmp(Emp emp);
 }

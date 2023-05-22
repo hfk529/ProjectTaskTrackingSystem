@@ -1,11 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
     <!-- 页面meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>项目任务跟踪系统</title>
     <meta name="description" content="项目任务跟踪系统">
     <meta name="keywords" content="项目任务跟踪系统">
@@ -15,7 +17,8 @@
             content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
             name="viewport">
 
-
+    <link rel=“stylesheet”
+          href="../plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
     <link rel="stylesheet"
           href="../plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet"
@@ -67,10 +70,11 @@
 <div class="wrapper">
 
     <!-- 页面头部 -->
-    <jsp:include page="managerHeader.jsp"></jsp:include>
+    <jsp:include page="staffHeader.jsp"></jsp:include>
     <!-- 页面头部 /-->
+
     <!-- 导航侧栏 -->
-    <jsp:include page="managerAside.jsp"></jsp:include>
+    <jsp:include page="staffAside.jsp"></jsp:include>
     <!-- 导航侧栏 /-->
 
     <!-- 内容区域 -->
@@ -79,126 +83,81 @@
         <!-- 内容头部 -->
         <section class="content-header">
             <h1>
-                个人管理<small>修改信息</small>
+                员工 <small>任务管理</small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="toManagerMain"><i
+                <li><a href="#"><i
                         class="fa fa-dashboard"></i> 首页</a></li>
-                <li><a
-                        href="toManagerMain">个人管理</a></li>
-                <li class="active">修改信息</li>
+                <li><a href="#">员工</a></li>
+                <li class="active">任务管理</li>
             </ol>
         </section>
         <!-- 内容头部 /-->
 
-        <form action="updateManager"
-              method="post">
-            <!-- 正文区域 -->
-            <section class="content">
+        <!-- 正文区域 -->
+        <section class="content"> <!--订单信息-->
 
-                <div class="panel panel-default">
-                    <div class="panel-heading">修改信息</div>
-                    <div class="row data-type">
 
-                        <div class="col-md-2 title">用户编号</div>
-                        <div class="col-md-4 data">
-                            <input type="text" class="form-control" name="username"
-                                   placeholder="开头:D(主管)M(管理员)S(员工)" value="${emp.username}">
-                        </div>
-                        <div class="col-md-2 title">用户姓名</div>
-                        <div class="col-md-4 data">
-                            <input type="text" class="form-control" name="name"
-                                   placeholder="用户姓名" value="${emp.name}">
-                        </div>
-                        <div class="col-md-2 title">密码</div>
-                        <div class="col-md-4 data">
-                            <input type="password" class="form-control" name="password"
-                                   placeholder="密码" value="${emp.password}">
-                        </div>
-                        <div class="col-md-2 title">性别</div>
+            <!--游客信息/--> <!--联系人信息-->
+            <div class="panel panel-default">
+                <div class="panel-heading">输入反馈信息</div>
+                <div class="row data-type">
+
+                    <div class="col-md-2 title">任务名称</div>
+                    <div class="col-md-4 data text">${plan.plan_name}</div>
+
+                    <div class="col-md-2 title">任务描述</div>
+                    <div class="col-md-4 data text">${plan.plan_description}</div>
+
+                    <div class="col-md-2 title">开始时间</div>
+                    <div class="col-md-4 data text">${plan.plan_begin_date}</div>
+
+                    <div class="col-md-2 title">结束时间</div>
+                    <div class="col-md-4 data text">${plan.plan_end_date}</div>
+
+                    <form action="/staffFeedback" method=post>
+                        <input type="hidden" value="${plan.id}" name="id">
+                        <div class="col-md-2 title">任务状态</div>
                         <div class="col-md-4 data">
                             <select class="form-control select2" style="width: 100%"
-                                    name="sex">
-                                <option value="男" selected="selected">男</option>
-                                <option value="女">女</option>
+                                    name="plan_state">
+                                <option value="已完成" selected="selected">已完成</option>
+                                <option value="未完成">未完成</option>
                             </select>
                         </div>
-
-                        <div class="col-md-2 title">出生日期</div>
+                        <div class="col-md-2 title">是否反馈</div>
                         <div class="col-md-4 data">
-                            <div class="input-group date">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-calendar"></i>
-                                </div>
-                                <input type="text" class="form-control pull-right"
-                                       id="datepicker-a3" name="birthday" value="${emp.birthday}">
-                            </div>
+                            <select class="form-control select2" style="width: 100%"
+                                    name="feedback">
+                                <option value="已反馈" selected="selected">已反馈</option>
+                                <option value="未反馈">未反馈</option>
+                            </select>
                         </div>
-                        <div class="col-md-2 title">入职日期</div>
-                        <div class="col-md-4 data">
-                            <div class="input-group date">
-                                <div class="input-group-addon">
-                                    <i class="fa fa-calendar"></i>
-                                </div>
-                                <input type="text" class="form-control pull-right"
-                                       id="datepicker-a4" name="hire_date" value="${emp.hire_date}">
-                            </div>
-                        </div>
-                        <div class="col-md-2 title">职位</div>
+                        <div class="col-md-2 title">反馈信息</div>
                         <div class="col-md-4 data">
                             <input type="text" class="form-control" name="position"
-                                   placeholder="职位" value="${emp.position}">
+                                   placeholder="反馈信息" value="">
                         </div>
 
-
-                        <div class="col-md-2 title">学历</div>
-                        <div class="col-md-4 data">
-                            <select class="form-control select2" style="width: 100%"
-                                    name="qualification">
-                                <option value="本科" selected="selected">本科</option>
-                                <option value="硕士研究生">硕士研究生</option>
-                                <option value="大专">大专</option>
-                            </select>
+                        <div class="box-tools text-right">
+                            <button type="submit" class="btn bg-maroon">提交</button>
+                            <button type="button" class="btn bg-default"
+                                    onclick="history.back(-1);">返回
+                            </button>
                         </div>
 
-
-                        <div class="col-md-2 title rowHeight2x">专业</div>
-                        <div class="col-md-10 data rowHeight2x">
-							<textarea class="form-control" rows="2" placeholder="专业"
-                                      name="professional">${emp.professional}</textarea>
-                        </div>
-                        <div class="col-md-2 title rowHeight2x">工作经历</div>
-                        <div class="col-md-10 data rowHeight2x">
-							<textarea class="form-control" rows="2" placeholder="工作经历"
-                                      name="experience">${emp.experience}</textarea>
-                        </div>
-
-                        <div class="col-md-2 title">身份标识</div>
-                        <div class="col-md-4 data">
-                            <select class="form-control select2" style="width: 100%"
-                                    name="flag">
-                                <option value="1" selected="selected">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                            </select>
-                        </div>
-                    </div>
+                    </form>
                 </div>
-                <!--订单信息/--> <!--工具栏-->
-                <div class="box-tools text-center">
-                    <button type="submit" class="btn bg-maroon">修改</button>
-                    <button type="button" class="btn bg-default"
-                            onclick="history.back(-1);">返回
-                    </button>
-                </div>
-                <!--工具栏/--> </section>
-            <!-- 正文区域 /-->
-        </form>
+            </div>
+
+            <!--工具栏/--> </section>
+        <!-- 正文区域 /-->
+
+
     </div>
     <!-- 内容区域 /-->
 
 </div>
-
 
 <script
         src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
@@ -206,7 +165,6 @@
         src="../plugins/jQueryUI/jquery-ui.min.js"></script>
 <script>
 		$.widget.bridge('uibutton', $.ui.button);
-
 
 </script>
 <script
@@ -309,46 +267,29 @@
 		}
 
 		$(document).ready(function() {
-			$('#datepicker-a3').datetimepicker({
-				format : "yyyy-mm-dd",
-				autoclose : true,
-				todayBtn : true,
-				language : "zh-CN"
-			});
-		});
 
-		$(document).ready(function() {
 			// 激活导航位置
 			setSidebarActive("order-manage");
-			$("#datepicker-a3").datetimepicker({
-				format : "yyyy-mm-dd",
 
+			// 列表按钮 
+			$("#dataList td input[type='checkbox']").iCheck({
+				checkboxClass : 'icheckbox_square-blue',
+				increaseArea : '20%'
 			});
-
-		});
-		$(document).ready(function() {
-			$('#datepicker-a4').datetimepicker({
-				format : "yyyy-mm-dd",
-				autoclose : true,
-				todayBtn : true,
-				language : "zh-CN"
+			// 全选操作 
+			$("#selall").click(function() {
+				var clicks = $(this).is(':checked');
+				if (!clicks) {
+					$("#dataList td input[type='checkbox']").iCheck("uncheck");
+				} else {
+					$("#dataList td input[type='checkbox']").iCheck("check");
+				}
+				$(this).data("clicks", !clicks);
 			});
 		});
-
-		$(document).ready(function() {
-			// 激活导航位置
-			setSidebarActive("order-manage");
-			$("#datepicker-a4").datetimepicker({
-				format : "yyyy-mm-dd",
-
-			});
-
-		});
-
 
 </script>
-
-
 </body>
+
 
 </html>

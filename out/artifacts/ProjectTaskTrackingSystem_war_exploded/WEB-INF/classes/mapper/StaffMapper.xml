@@ -38,4 +38,13 @@
         #{plan.plan_end_date,javaType=Date},#{plan.plan_description,javaType=String},
         #{id})
     </insert>
+    <select id="findPlanByPlanId" parameterType="java.lang.String" resultType="com.ptt.vo.Plan">
+        select * from t_plan where id = #{id,javaType=String}
+    </select>
+    <update id="updateEmp" parameterType="com.ptt.vo.Emp">
+        update t_emp set username=#{username},name=#{name},password=#{password},sex=#{sex},birthday=#{birthday},hire_date=#{hire_date},position=#{position},qualification=#{qualification},professional=#{professional},experience=#{experience},flag=#{flag} where username=#{username}
+    </update>
+    <update id="updatePlanById" parameterType="java.lang.String">
+        update t_plan set plan_state=#{plan_state,javaType=String},feedback=#{feedback,javaType=String} where id =#{id,javaType=String}
+    </update>
 </mapper>

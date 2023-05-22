@@ -4,16 +4,18 @@ import com.ptt.service.IManagerService;
 import com.ptt.vo.Emp;
 import com.ptt.vo.Plan;
 import com.ptt.vo.Task;
+import org.apache.commons.beanutils.BeanUtils;
+import org.apache.commons.beanutils.ConvertUtils;
+import org.apache.commons.beanutils.Converter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.lang.reflect.InvocationTargetException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 @Controller
 public class ManagerController {
@@ -83,7 +85,7 @@ public class ManagerController {
         String task_state = request.getParameter("task_state");
         String task_begin_time = request.getParameter("task_begin_time");
         //获取员工编号
-        String staff_id=session.getAttribute("loginName").toString();
+        String staff_id = session.getAttribute("loginName").toString();
         Emp emp = managerService.findUserByName(name);
         String emp_id = emp.getUsername();
         //将获取的值封装为map集合
@@ -192,18 +194,53 @@ public class ManagerController {
     }
 
     @RequestMapping("toManagerUpdateManager")
-    public String toManagerUpdateManager(HttpSession session,HttpServletRequest request){
+    public String toManagerUpdateManager(HttpSession session, HttpServletRequest request) {
         String username = session.getAttribute("loginName").toString();
         Emp emp = managerService.findUserById(username);
-        request.setAttribute("emp",emp);
+        request.setAttribute("emp", emp);
         return "managerUpdateManager";
     }
 
+    @RequestMapping("updateManager")
+    public String updateManager(HttpSession session, HttpServletRequest request) {
+        String username = session.getAttribute("loginName").toString();
+        Emp emp = new Emp();
+
+        //注册转换器，将string类型数据转换为date类型
+        ConvertUtils.register(new Converter() {
+            @Override
+            public Object convert(Class aClass, Object o) {
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+
+                try {
+                    return formatter.parse(o.toString());
+                } catch (java.text.ParseException e) {
+                    e.printStackTrace();
+                }
+
+                return new Date();
+            }
+        }, Date.class);
+
+        //获取数据
+        Map<String, String[]> map = request.getParameterMap();
+        //封装数据
+        try {
+            BeanUtils.populate(emp, map);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+        managerService.updateEmp(emp);
+        return "managerMain";
+    }
+
     @RequestMapping("showManager")
-    public String showManager(HttpSession session,HttpServletRequest request){
+    public String showManager(HttpSession session, HttpServletRequest request) {
         String username = session.getAttribute("loginName").toString();
         Emp emp = managerService.findUserById(username);
-        request.setAttribute("emp",emp);
+        request.setAttribute("emp", emp);
         return "managerShowManager";
     }
 }

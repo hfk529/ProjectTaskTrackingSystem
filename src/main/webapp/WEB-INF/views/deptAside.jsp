@@ -7,7 +7,7 @@
         <!-- Sidebar user panel -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="../img/user2-160x160.jpg"
+                <img src="../img/user3-128x128.jpg"
                      class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
@@ -36,10 +36,10 @@
                             href="/deptTaskList"> <i
                             class="fa fa-circle-o"></i> 查看项目
                     </a></li>
-                    <li id="system-setting"><a
+                    <%--<li id="system-setting"><a
                             href="/toDeptTaskAdd"> <i
                             class="fa fa-circle-o"></i> 制订项目
-                    </a></li>
+                    </a></li>--%>
                     <li id="system-setting"><a
                             href="/deptTaskAdjustList">
                         <i class="fa fa-circle-o"></i> 调整项目

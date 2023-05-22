@@ -16,4 +16,6 @@ public interface AdminMapper {
     void deleteUserById(String username);
 
     void updateUser(@Param("username") String username,@Param("super_id") String super_id);
+
+    void updateEmp(Emp emp);
 }

@@ -98,10 +98,12 @@ public class StaffController {
         return "staffTaskPlanShow";
     }
 
-//    @RequestMapping(value = "/staffFeedbackBefore",params = "id")
-//    public String staffFeedbackBefore(){
-//
-//    }
+    @RequestMapping(value = "/staffFeedbackBefore",params = "id")
+    public String staffFeedbackBefore(String id,HttpServletRequest request){
+        Plan plan = staffService.findPlanByPlanId(id);
+        request.setAttribute("plan",plan);
+        return "staffPlanFeedback";
+    }
 
     @RequestMapping("/staffLookBefore")
     public String lookStaffPlanBefore(HttpServletRequest request) {
@@ -145,11 +147,59 @@ public class StaffController {
         return "staffUpdateStaff";
     }
 
+    @RequestMapping("updateStaff")
+    public String updateStaff(HttpSession session, HttpServletRequest request) {
+        String username = session.getAttribute("loginName").toString();
+        Emp emp = new Emp();
+
+        //注册转换器，将string类型数据转换为date类型
+        ConvertUtils.register(new Converter() {
+            @Override
+            public Object convert(Class aClass, Object o) {
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+
+                try {
+                    return formatter.parse(o.toString());
+                } catch (java.text.ParseException e) {
+                    e.printStackTrace();
+                }
+
+                return new Date();
+            }
+        }, Date.class);
+
+        //获取数据
+        Map<String, String[]> map = request.getParameterMap();
+        //封装数据
+        try {
+            BeanUtils.populate(emp, map);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+        staffService.updateEmp(emp);
+        return "staffMain";
+    }
+
     @RequestMapping("showStaff")
     public String showStaff(HttpSession session,HttpServletRequest request){
         String username = session.getAttribute("loginName").toString();
         Emp emp = staffService.findUserById(username);
         request.setAttribute("emp",emp);
         return "staffShowStaff";
+    }
+
+    @RequestMapping("staffFeedback")
+    public String staffFeedback(HttpServletRequest request){
+        String plan_state = request.getParameter("plan_state");
+        String feedback = request.getParameter("feedback");
+        String id = request.getParameter("id");
+
+        staffService.updatePlanById(id,plan_state,feedback);
+
+        List<Plan> planList = staffService.findAllPlan();
+        request.setAttribute("planList",planList);
+        return "staffPlanList";
     }
 }

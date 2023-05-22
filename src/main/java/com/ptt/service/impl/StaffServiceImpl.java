@@ -20,7 +20,7 @@ public class StaffServiceImpl implements IStaffService {
     private DeptMapper deptMapper;
 
     @Override
-    public Task findTaskIdByUserName(String currentUser,int id) {
+    public Task findTaskIdByUserName(String currentUser, int id) {
         return staffMapper.findTaskIdByUserName(currentUser,id);
     }
 
@@ -72,5 +72,10 @@ public class StaffServiceImpl implements IStaffService {
     @Override
     public List<Plan> dimLook(Map<String, String> map) {
         return staffMapper.dimLook(map);
+    }
+
+    @Override
+    public void updateEmp(Emp emp) {
+        staffMapper.updateEmp(emp);
     }
 }
