@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ProjectTaskTrackingSystem.iml" filepath="$PROJECT_DIR$/.idea/ProjectTaskTrackingSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectTaskTrackingSystem.iml" filepath="$PROJECT_DIR$/ProjectTaskTrackingSystem.iml" />
     </modules>
   </component>
 </project>
