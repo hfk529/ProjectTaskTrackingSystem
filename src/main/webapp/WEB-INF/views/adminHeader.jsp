@@ -27,14 +27,14 @@
 					<ul class="dropdown-menu">
 						<!-- User image -->
 						<li class="user-header"><img
-							src="../img/user2-160x160.jpg"
+							src="../img/user1-128x128.jpg"
 							class="img-circle" alt="User Image"></li>
 
 						<!-- Menu Footer-->
 						<li class="user-footer">
 
 							<div class="pull-right">
-								<a href="login"
+								<a href="loginAdmin.jsp"
 									class="btn btn-default btn-flat">注销</a>
 							</div>
 						</li>

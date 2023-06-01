@@ -144,8 +144,8 @@
                         <div class="col-md-4 data text">${plan.plan_end_date}</div>
                         <div class="col-md-2 title">操作</div>
                         <div class="col-md-4 data text">
-                            <a href="/staffFeedbackBefore?id=${plan.id}" class="btn bg-olive btn-xs">反馈计划</a>
-                            <a href="/staffDeletePlan?id=${plan.id}" class="btn bg-olive btn-xs">删除计划</a>
+                            <a href="/staffFeedbackBefore?id=${plan.id}" class="btn bg-olive btn-xs">反馈任务</a>
+                            <a href="/staffDeletePlan?id=${plan.id}" class="btn bg-olive btn-xs">删除任务</a>
                         </div>
                     </div>
                 </c:forEach>

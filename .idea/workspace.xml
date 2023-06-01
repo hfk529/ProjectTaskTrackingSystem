@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ProjectTaskTrackingSystem" />
+      <artifact name="ProjectTaskTrackingSystem:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -24,43 +24,22 @@
         <item name="GROUP_NODE:ProjectTaskTrackingSystem" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ProjectTaskTrackingSystem" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:ProjectTaskTrackingSystem/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4276742c-764f-44fb-9fcc-cfb044f90ff8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ProjectTaskTrackingSystem_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectTaskTrackingSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4276742c-764f-44fb-9fcc-cfb044f90ff8" name="Default Changelist" comment="程序提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ptt/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ptt/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminHeader.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskFollow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/managerTaskFollow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffTaskPlanShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staffTaskPlanShow.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,8 +168,19 @@
       <option name="presentableId" value="Default" />
       <updated>1684734601512</updated>
       <workItem from="1684734607486" duration="194000" />
-      <workItem from="1684738763320" duration="289000" />
+      <workItem from="1684738763320" duration="1739000" />
+      <workItem from="1684937857546" duration="1730000" />
+      <workItem from="1684984239421" duration="2359000" />
+      <workItem from="1685472142816" duration="2006000" />
     </task>
+    <task id="LOCAL-00001" summary="程序提交">
+      <created>1684739185613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684739185613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -208,7 +198,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="ProjectTaskTrackingSystem/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -217,6 +219,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="程序提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="程序提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="280" y="9" key="#Project_Structure" timestamp="1684734791780">
@@ -231,66 +235,74 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1684737605350" />
-    <state width="1069" height="222" key="GridCell.Tab.0.bottom" timestamp="1684739055061">
+    <state width="1069" height="222" key="GridCell.Tab.0.bottom" timestamp="1685480396156">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1684739055061" />
-    <state width="1069" height="222" key="GridCell.Tab.0.center" timestamp="1684739055061">
+    <state width="1069" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1685480396156" />
+    <state width="1069" height="222" key="GridCell.Tab.0.center" timestamp="1685480396156">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1684739055061" />
-    <state width="1069" height="222" key="GridCell.Tab.0.left" timestamp="1684739055061">
+    <state width="1069" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1685480396156" />
+    <state width="1069" height="222" key="GridCell.Tab.0.left" timestamp="1685480396156">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1684739055061" />
-    <state width="1069" height="222" key="GridCell.Tab.0.right" timestamp="1684739055061">
+    <state width="1069" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1685480396156" />
+    <state width="1069" height="222" key="GridCell.Tab.0.right" timestamp="1685480396156">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1684739055061" />
-    <state width="1069" height="222" key="GridCell.Tab.1.bottom" timestamp="1684739055062">
+    <state width="1069" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1685480396156" />
+    <state width="1069" height="222" key="GridCell.Tab.1.bottom" timestamp="1685480396157">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1684739055062" />
-    <state width="1069" height="222" key="GridCell.Tab.1.center" timestamp="1684739055062">
+    <state width="1069" height="222" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1685480396157" />
+    <state width="1069" height="222" key="GridCell.Tab.1.center" timestamp="1685480396156">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1684739055062" />
-    <state width="1069" height="222" key="GridCell.Tab.1.left" timestamp="1684739055061">
+    <state width="1069" height="222" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1685480396156" />
+    <state width="1069" height="222" key="GridCell.Tab.1.left" timestamp="1685480396156">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1684739055061" />
-    <state width="1069" height="222" key="GridCell.Tab.1.right" timestamp="1684739055062">
+    <state width="1069" height="222" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1685480396156" />
+    <state width="1069" height="222" key="GridCell.Tab.1.right" timestamp="1685480396157">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1684739055062" />
-    <state width="1069" height="222" key="GridCell.Tab.2.bottom" timestamp="1684739055063">
+    <state width="1069" height="222" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1685480396157" />
+    <state width="1069" height="222" key="GridCell.Tab.2.bottom" timestamp="1685480396157">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1684739055063" />
-    <state width="1069" height="222" key="GridCell.Tab.2.center" timestamp="1684739055063">
+    <state width="1069" height="222" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1685480396157" />
+    <state width="1069" height="222" key="GridCell.Tab.2.center" timestamp="1685480396157">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1684739055063" />
-    <state width="1069" height="222" key="GridCell.Tab.2.left" timestamp="1684739055063">
+    <state width="1069" height="222" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1685480396157" />
+    <state width="1069" height="222" key="GridCell.Tab.2.left" timestamp="1685480396157">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1684739055063" />
-    <state width="1069" height="222" key="GridCell.Tab.2.right" timestamp="1684739055063">
+    <state width="1069" height="222" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1685480396157" />
+    <state width="1069" height="222" key="GridCell.Tab.2.right" timestamp="1685480396157">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1684739055063" />
+    <state width="1069" height="222" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1685480396157" />
     <state x="301" y="9" key="SettingsEditor" timestamp="1684739000909">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1684739000909" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1684739193277">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1684739193277" />
     <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1684738519591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1684738519591" />
-    <state x="603" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1684737779668">
+    <state x="453" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1684739163348">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="603" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1684737779668" />
+    <state x="453" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1600.860@0.0.1600.860" timestamp="1684739163348" />
+    <state x="603" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1684739138196">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="603" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1684739138196" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1684737548726">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

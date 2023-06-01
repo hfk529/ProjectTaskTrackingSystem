@@ -79,7 +79,7 @@
         <!-- 内容头部 -->
         <section class="content-header">
             <h1>
-                任务管理 <small>跟踪任务</small>
+                项目管理 <small>跟踪项目</small>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="/toManagerMain"><i

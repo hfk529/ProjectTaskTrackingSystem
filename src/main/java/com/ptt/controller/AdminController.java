@@ -83,8 +83,10 @@ public class AdminController {
     }
 
     @RequestMapping(value = "deleteUser", params = "username")
-    public String deleteUserById(String username) {
+    public String deleteUserById(String username,HttpServletRequest request) {
         adminService.deleteUserById(username);
+        List<Emp> empList = adminService.findAll();
+        request.setAttribute("empList", empList);
         return "adminUserList";
     }
 
